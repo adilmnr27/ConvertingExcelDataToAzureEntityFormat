@@ -2,7 +2,7 @@
 
 We need a paritcular JSON format while importing the values in an Enitity created on luis.
 
-For a list format the format is :- 
+A demo format is :- 
 
 [
     {
