@@ -7,16 +7,6 @@ class Schema{
         this.list=list;
     }
 
-    getObj(){
-         var jsonObj = {
-            canonicalForm : this.canonicalForm,
-            list : this.list
-
-        }
-        return jsonObj;
-    }
-
-
 }
 
 module.exports.Schema = Schema;

@@ -9,9 +9,8 @@ console.log(values);
 var list = [];
 
 values.forEach(element => {
-    let objFromExcel = new Schema(element.column1);
-    let objToBeInserted = objFromExcel.getObj();
-    list.push(JSON.stringify(objToBeInserted))
+    let objAccordingToSchema = new Schema(element.column1);
+    list.push(JSON.stringify(objAccordingToSchema))
 });
 
 //Writing into JSON file
